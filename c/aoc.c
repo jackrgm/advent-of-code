@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
 		return 1;
 	}
 
-	printf("2023 DAY 1 PART 1: %d\n", aoc2023_day1_part1(file));
+	printf("2023 DAY 1 PART 2: %d\n", aoc2023_day1_part2(file));
 
 	fclose(file);
 

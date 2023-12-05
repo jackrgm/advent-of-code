@@ -3,15 +3,15 @@
 #include <ctype.h>
 
 int aoc2023_day1_part1(FILE *file) {
+	rewind(file);
+
 	int ch;
 	int concat;
 	int total = 0;
-
-	bool is_first = true;
-	bool second_set = false;
-
 	int first = 0;
 	int second = 0;
+	bool is_first = true;
+	bool second_set = false;
 
 	while ((ch = getc(file)) != EOF) {
         if (isdigit(ch)) {
@@ -44,4 +44,9 @@ int aoc2023_day1_part1(FILE *file) {
     total += concat;
 
 	return total;
+}
+
+int aoc2023_day1_part2(FILE *file) {
+	printf("AOC2023-D1-P1: WARNING: Not yet implemented.\n");
+	return 0;
 }
