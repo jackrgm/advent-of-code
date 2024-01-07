@@ -38,6 +38,8 @@ int get_day_part(int argc, char **argv, int *day, int *part) {
 
 	if (inpart != -1) {
 		*part = inpart;
+	} else {
+		*part = 1;
 	}
 
 	return AOC_SUCCESS;
