@@ -18,7 +18,9 @@
 // Day not in the range of 1-25.
 #define AOC_ERR_DAYRANGE 5
 
+// If part isn't provided or is invalid, it defaults to 1.
 int get_day_part(int argc, char **argv, int *day, int *part);
+
 int validate_day(int day);
 
 #endif
