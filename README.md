@@ -1,18 +1,18 @@
 # JackRGM's Advent of Code Solutions
 
-            _\/_ 
-             /\    JackRGM's
-             /\         _______    _______ 
-            /  \       (  ___  )  (  ____ \
-           o/~*\o      | (   ) |  | (    \/
-           /o   \      | |   | |  | |      
-          /~~*~*~\o    | |   | |  | |      
-         o/    o \     | |   | |  | |      
-         /~o~*~~~~\    | (___) |  | (____/\
-        /__*__o__*_\o  (_______)  (_______/
-        o  ..||..
-           \====/             Solutions
-            \__/
+        _\/_ 
+         /\    JackRGM's
+         /\         _______    _______ 
+        /  \       (  ___  )  (  ____ \
+       o/~*\o      | (   ) |  | (    \/
+       /o   \      | |   | |  | |      
+      /~~*~*~\o    | |   | |  | |      
+     o/    o \     | |   | |  | |      
+     /~o~*~~~~\    | (___) |  | (____/\
+    /__*__o__*_\o  (_______)  (_______/
+    o  ..||..
+       \====/             Solutions
+        \__/
 
 [Advent of Code](https://adventofcode.com/2023/about) (AOC) is a popular, well-established, Christmas-themed event which releases a set of programming puzzles each December. Thousands of participants attempt, solve, and share solutions to these puzzles as a way to enjoy and expand their knowledge of programming.
 
