@@ -21,14 +21,14 @@ using namespace AOCCPP;
 
 int main(int argc, char **argv) {
 	// TODO Parameterise file name
-	std::ifstream infile("inputs/2021_1.txt");
+	std::ifstream infile("inputs/2024_1.txt");
 
 	if (!infile.is_open()) {
 		std::cerr << "Error opening file\n";
 		return EXIT_FAILURE;
 	}
 
-	AOCCPP::parseinput(infile, 2024, 1, 1);
+	std::cout << AOCCPP::parseinput(infile, 2024, 1, 2) << "\n";
 	infile.close();
 
 	return EXIT_SUCCESS;
